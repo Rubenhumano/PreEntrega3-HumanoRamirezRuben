@@ -1,0 +1,94 @@
+/*NOVEDADES*/
+
+.novedades-main__titulo {
+  background-color: #F2ECBE;
+  color: #9A3B3B;
+  margin: 20px 0;
+  padding: 30px;
+}
+
+.novedades-main__principal {
+  background-color: #F2ECBE;
+  margin: 20px 0;
+  padding: 30px;
+}
+
+.novedades-main__principal p,
+ol {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #000;
+  font-size: 20px;
+}
+
+.novedades-main__principal h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.novedades-seccion2 {
+
+  padding-bottom: 45px;
+}
+
+.novedades-seccion2__titulo {
+  padding: 30px;
+}
+
+.novedades-seccion2__formulario {
+  padding: 30px;
+  background-color: #C08261;
+  border: 7px solid #000;
+  border-radius: 60px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+}
+
+.elementos-del-formulario {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 100px;
+}
+
+.elementos-del-formulario div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.elementos-del-formulario div input {
+  border: 2px solid #000;
+}
+
+.elementos-del-formulario div h3 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.elementos-del-formulario div label {
+  font-size: 22px;
+}
+
+#tyc {
+  display: flex;
+  justify-content: center;
+}
+
+input:not(.checkbox) {
+  font-size: 20px;
+  width:70%;
+  background-color: #F2ECBE;
+}
+
+button {
+  padding: 10px;
+  border-radius: 60px;
+  background-color: #9A3B3B;
+  color: #F2ECBE;
+  border: 2px solid #F2ECBE;
+}

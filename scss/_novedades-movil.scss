@@ -1,0 +1,23 @@
+/*NOVEDADES - Móvil*/
+
+@media(max-width:480px) {
+  main{
+    padding: 30px;
+  }
+
+  .novedades-main__titulo h1{
+    font-size: 30px;
+  }
+
+.novedades-seccion2__formulario{
+  padding: 10px;
+} 
+
+  .elementos-del-formulario button{
+  width: 200%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+}

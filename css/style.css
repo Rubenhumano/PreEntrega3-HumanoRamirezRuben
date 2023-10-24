@@ -1,0 +1,595 @@
+@charset "UTF-8";
+/*Fuentes*/
+@import url("https://fonts.googleapis.com/css2?family=Actor&family=BenchNine&family=Exo:wght@400;800&family=Josefin+Sans:wght@400;700&family=Mochiy+Pop+One&display=swap");
+/*Generales*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Header*/
+header {
+  background-color: #9A3B3B;
+  padding: 20px 0;
+}
+
+.navegacion-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navegacion-header nav {
+  width: 100%;
+  text-align: center;
+  font-family: "Mochiy Pop One", sans-serif;
+}
+
+.navegacion-header ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.navegacion-header ul a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/*Main*/
+main {
+  background-color: #E2C799;
+  padding: 30px 0;
+  font-family: "Mochiy Pop One", sans-serif;
+}
+
+main h1,
+h2 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+main p {
+  font-size: 32px;
+  color: rgb(154, 59, 59);
+}
+
+.main-cajas {
+  background-color: #C08261;
+  border-radius: 60px;
+  border: 7px solid #000;
+  color: #000;
+}
+
+/*Sección 2*/
+.seccion2 {
+  background-color: #a48a5e;
+  text-align: center;
+}
+
+.seccion2 h2 {
+  font-family: "Mochiy Pop One", sans-serif;
+  color: rgb(242, 236, 190);
+  font-size: 2.5rem;
+  -webkit-text-stroke: 1px #000;
+}
+
+.seccion2 p {
+  font-family: "Mochiy Pop One", sans-serif;
+  color: #FFF;
+  font-size: 2rem;
+  margin-bottom: 45px;
+  -webkit-text-stroke: 1px #000;
+}
+
+/*Footer*/
+footer {
+  background-color: #9A3B3B;
+  padding: 30px;
+  color: #FFF;
+  font-family: "Mochiy Pop One", sans-serif;
+}
+
+footer p {
+  font-family: "Actor", sans-serif;
+}
+
+/*INDEX*/
+.index-main {
+  padding: 35px 0;
+  font-size: 2rem;
+}
+
+.main__parrafo-index {
+  text-align: center;
+}
+
+.main__comidas-index {
+  margin: 50px 0;
+}
+
+.main__comidas-index img {
+  width: 300px;
+  height: 250px;
+  border: 7px solid #000;
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__comidas-index p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 250px;
+  font-size: 1.6rem;
+}
+
+.section1-index {
+  display: flex;
+  align-items: center;
+  background-image: url("../img/index/pizza-imagen-principal.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  font-family: "Exo", sans-serif;
+}
+
+.section1-index__presentacion {
+  background-color: rgba(217, 217, 217, 0.55);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  font-weight: 800;
+}
+
+.section1-index__presentacion h1 {
+  font-weight: 800;
+  color: #9A3B3B;
+  font-size: 5rem;
+  text-align: center;
+  -webkit-text-stroke: 1px #F2ECBE;
+  text-shadow: -10px 10px 4px rgba(0, 0, 0, 0.5);
+}
+
+.section1-index__presentacion ul {
+  font-size: 2.8rem;
+  color: #E2C799;
+  -webkit-text-stroke: 1px #000;
+  text-align: center;
+  list-style-type: none;
+}
+
+.section1-index__presentacion li {
+  text-shadow: -5px 5px 4px rgba(0, 0, 0, 0.5);
+}
+
+/*GALERÍA*/
+.galeria {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin: 30px 0px 100px 0px;
+}
+
+.galeria img {
+  width: 100%;
+  height: 300px;
+  border: 5px solid #000;
+}
+
+.galeria-introduccion p {
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.galeria-introduccion h1 {
+  margin: 20px 0px;
+}
+
+/*PROMOCIONES*/
+.promociones-seccion3 {
+  background-color: #6f6048;
+  padding: 30px 0 70px 0;
+  font-family: "Mochiy Pop One", sans-serif;
+}
+
+.promociones-seccion3__titulo {
+  font-size: 35px;
+  color: #FFF;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.promociones-seccion3__info {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #F2ECBE;
+  padding: 30px;
+}
+
+.promociones-seccion3__info p {
+  font-weight: 400;
+}
+
+.promociones-seccion3__info h3 {
+  text-align: center;
+  font-weight: 700;
+}
+
+.promociones-seccion3__foto img {
+  height: 100%;
+  width: 100%;
+}
+
+.promociones-seccion3__foto {
+  padding: 0;
+}
+
+.promociones-seccion2 {
+  padding-bottom: 45px;
+}
+
+.promociones-seccion2__titulo {
+  padding: 30px;
+}
+
+.promociones-seccion2__formulario {
+  padding: 30px;
+  background-color: #C08261;
+  border: 7px solid #000;
+  border-radius: 60px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+}
+
+.elementos-del-formulario {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 100px;
+}
+
+.elementos-del-formulario div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+}
+
+.elementos-del-formulario div input {
+  border: 2px solid #000;
+}
+
+.elementos-del-formulario h3 {
+  font-family: "Mochiy Pop One", sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.elementos-del-formulario .label {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+}
+
+#tyc {
+  display: flex;
+  justify-content: center;
+}
+
+/*NOVEDADES*/
+.novedades-main__titulo {
+  background-color: #F2ECBE;
+  color: #9A3B3B;
+  margin: 20px 0;
+  padding: 30px;
+}
+
+.novedades-main__principal {
+  background-color: #F2ECBE;
+  margin: 20px 0;
+  padding: 30px;
+}
+
+.novedades-main__principal p,
+ol {
+  font-family: "Josefin Sans", sans-serif;
+  color: #000;
+  font-size: 20px;
+}
+
+.novedades-main__principal h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.novedades-seccion2 {
+  padding-bottom: 45px;
+}
+
+.novedades-seccion2__titulo {
+  padding: 30px;
+}
+
+.novedades-seccion2__formulario {
+  padding: 30px;
+  background-color: #C08261;
+  border: 7px solid #000;
+  border-radius: 60px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+}
+
+.elementos-del-formulario {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 100px;
+}
+
+.elementos-del-formulario div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.elementos-del-formulario div input {
+  border: 2px solid #000;
+}
+
+.elementos-del-formulario div h3 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.elementos-del-formulario div label {
+  font-size: 22px;
+}
+
+#tyc {
+  display: flex;
+  justify-content: center;
+}
+
+input:not(.checkbox) {
+  font-size: 20px;
+  width: 70%;
+  background-color: #F2ECBE;
+}
+
+button {
+  padding: 10px;
+  border-radius: 60px;
+  background-color: #9A3B3B;
+  color: #F2ECBE;
+  border: 2px solid #F2ECBE;
+}
+
+/*NOSOTROS*/
+.nosotros-seccion2 {
+  padding: 40px 0 75px 0;
+}
+
+.nosotros-seccion2 .mapa {
+  border-radius: 60px;
+  border: 7px solid #000;
+  padding: 0;
+  width: 100%;
+}
+
+.nosotros-main-cajas {
+  margin: 20px 0 70px 0;
+  padding: 30px;
+}
+
+.nosotros-main-cajas h3 {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.nosotros-main-cajas p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1rem;
+  color: #000;
+}
+
+.nosotros-main {
+  text-align: center;
+}
+
+.nosotros-imagen {
+  border: 7px solid #000;
+  height: 510px;
+  margin-top: 20px;
+  border-radius: 60px;
+}
+
+/*INDEX - Móvil*/
+@media (max-width: 480px) {
+  .section1-index {
+    padding: 10px;
+  }
+  .section1-index__presentacion {
+    height: 500px;
+  }
+  .section1-index__presentacion h1 {
+    font-size: 3.5rem;
+    text-shadow: -10px 10px 4px rgba(0, 0, 0, 0.5);
+  }
+  .section1-index__presentacion ul {
+    font-size: 1.5rem;
+    -webkit-text-stroke: 1px #000;
+  }
+  .main__comidas-index img {
+    width: 200px;
+    height: 150px;
+    border: 5px solid #000;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main__comidas-index p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 150px;
+    font-size: 1rem;
+    border: 5px solid #000;
+  }
+  .main1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+  }
+  #imagen-tarta {
+    order: -1;
+  }
+  .main__comidas-index {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .main__parrafo-index p {
+    font-size: 20px;
+  }
+  .navegacion-header ul {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+  }
+  .navegacion-header ul li {
+    margin: 5px 0;
+  }
+  .navegacion-header ul li a {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  .index-imagen {
+    display: flex;
+    justify-content: center;
+  }
+  footer {
+    padding: 30px;
+    font-size: 12px;
+  }
+  footer h4 {
+    font-size: 14px;
+  }
+}
+/*GALERÍA - Móvil*/
+@media (max-width: 480px) {
+  .galeria-introduccion p {
+    font-size: 20px;
+    padding: 12px;
+  }
+  .galeria-introduccion h1 {
+    font-size: 30px;
+  }
+  .galeria1 h2 {
+    font-size: 30px;
+  }
+  .galeria {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+}
+/*PROMOCIONES - Móvil*/
+@media (max-width: 480px) {
+  .promociones-seccion3 {
+    padding: 30px;
+  }
+  .seccion2 h2 {
+    font-size: 30px;
+  }
+  .seccion2 p {
+    font-size: 20px;
+  }
+  .promociones-seccion2__formulario {
+    padding: 10px;
+  }
+  .elementos-del-formulario div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+  }
+  .elementos-del-formulario .label {
+    font-size: 17px;
+  }
+  .elementos-del-formulario input {
+    width: 200%;
+    font-size: 15px;
+  }
+  .elementos-del-formulario h3 {
+    font-size: 20px;
+    width: 200%;
+  }
+  #tyc label {
+    font-size: 10px;
+  }
+  .elementos-del-formulario button {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+/*NOVEDADES - Móvil*/
+@media (max-width: 480px) {
+  main {
+    padding: 30px;
+  }
+  .novedades-main__titulo h1 {
+    font-size: 30px;
+  }
+  .novedades-seccion2__formulario {
+    padding: 10px;
+  }
+  .elementos-del-formulario button {
+    width: 200%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+/*NOSOTROS*/
+@media (max-width: 480px) {
+  .nosotros-main h1, h2 {
+    font-size: 30px;
+  }
+  .nosotros-main p {
+    font-size: 20px;
+  }
+  .nosotros-main-cajas h3 {
+    font-size: 20px;
+  }
+  .nosotros-imagen {
+    display: none;
+  }
+  .mapa {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

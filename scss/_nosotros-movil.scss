@@ -1,0 +1,23 @@
+/*NOSOTROS*/
+
+@media(max-width:480px) {
+.nosotros-main h1,h2{
+  font-size: 30px;
+}
+
+.nosotros-main p{
+  font-size: 20px;
+}
+
+.nosotros-main-cajas h3{
+  font-size: 20px;
+}
+
+  .nosotros-imagen{
+    display: none;
+  }
+
+  .mapa{
+    width: 100%;
+  }
+}

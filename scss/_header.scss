@@ -1,0 +1,30 @@
+/*Header*/
+header {
+  background-color: #9A3B3B;
+  padding: 20px 0;
+}
+
+.navegacion-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navegacion-header nav {
+  width: 100%;
+  text-align: center;
+  font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.navegacion-header ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.navegacion-header ul a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 20px;
+}
