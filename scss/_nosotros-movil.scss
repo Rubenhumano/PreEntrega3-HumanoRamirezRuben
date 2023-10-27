@@ -1,23 +1,26 @@
-/*NOSOTROS*/
+/* NOSOTROS */
+@media (max-width: 480px) {
+  .nosotros-main {
+    h1, h2 {
+      font-size: 30px;
+    }
 
-@media(max-width:480px) {
-.nosotros-main h1,h2{
-  font-size: 30px;
-}
+    p {
+      font-size: 20px;
+    }
 
-.nosotros-main p{
-  font-size: 20px;
-}
+    .nosotros-main-cajas {
+      h3 {
+        font-size: 20px;
+      }
+    }
 
-.nosotros-main-cajas h3{
-  font-size: 20px;
-}
+    .nosotros-imagen {
+      display: none;
+    }
 
-  .nosotros-imagen{
-    display: none;
-  }
-
-  .mapa{
-    width: 100%;
+    .mapa {
+      width: 100%;
+    }
   }
 }

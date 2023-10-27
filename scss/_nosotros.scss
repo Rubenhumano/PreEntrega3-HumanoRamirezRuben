@@ -1,32 +1,29 @@
-/*NOSOTROS*/
-
-
+/* NOSOTROS */
 .nosotros-seccion2 {
   padding: 40px 0 75px 0;
-}
 
-
-.nosotros-seccion2 .mapa {
-  border-radius: 60px;
-  border: 7px solid #000;
-  padding: 0;
-  width: 100%;
+  .mapa {
+    border-radius: 60px;
+    border: 7px solid #000;
+    padding: 0;
+    width: 100%;
+  }
 }
 
 .nosotros-main-cajas {
   margin: 20px 0 70px 0;
   padding: 30px;
-}
 
-.nosotros-main-cajas h3 {
-  font-size: 1.6rem;
-  text-align: center;
-}
+  h3 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
 
-.nosotros-main-cajas p {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 1rem;
-  color: #000;
+  p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+    color: #000;
+  }
 }
 
 .nosotros-main {

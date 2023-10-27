@@ -1,24 +1,23 @@
-/*Main*/
+/* Main */
 main {
   background-color: #E2C799;
   padding: 30px 0;
   font-family: 'Mochiy Pop One', sans-serif;
-}
 
-main h1,
-h2 {
-  font-size: 2.5rem;
-  text-align: center;
-}
+  h1, h2 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
 
-main p {
-  font-size: 32px;
-  color: rgb(154, 59, 59);
-}
+  p {
+    font-size: 32px;
+    color: rgb(154, 59, 59);
+  }
 
-.main-cajas {
-  background-color: #C08261;
-  border-radius: 60px;
-  border: 7px solid #000;
-  color: #000;
+  .main-cajas {
+    background-color: #C08261;
+    border-radius: 60px;
+    border: 7px solid #000;
+    color: #000;
+  }
 }

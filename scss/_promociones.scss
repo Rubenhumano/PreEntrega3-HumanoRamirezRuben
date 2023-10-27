@@ -1,96 +1,91 @@
-/*PROMOCIONES*/
-
+/* PROMOCIONES */
 .promociones-seccion3 {
   background-color: #6f6048;
   padding: 30px 0 70px 0;
   font-family: 'Mochiy Pop One', sans-serif;
-}
 
-.promociones-seccion3__titulo {
-  font-size: 35px;
-  color: #FFF;
-  text-align: center;
-  margin-bottom: 20px;
-}
+  &__titulo {
+    font-size: 35px;
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 20px;
+  }
 
-.promociones-seccion3__info {
-  font-family: 'Josefin Sans', sans-serif;
-  background-color: #F2ECBE;
-  padding: 30px;
-}
+  &__info {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #F2ECBE;
+    padding: 30px;
 
-.promociones-seccion3__info p {
-  font-weight: 400;
-}
+    p {
+      font-weight: 400;
+    }
 
-.promociones-seccion3__info h3 {
-  text-align: center;
-  font-weight: 700;
-}
+    h3 {
+      text-align: center;
+      font-weight: 700;
+    }
 
-.promociones-seccion3__foto img {
-  height: 100%;
-  width: 100%;
-
-}
-
-.promociones-seccion3__foto {
-  padding: 0;
+    &__foto {
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
 }
 
 .promociones-seccion2 {
-
   padding-bottom: 45px;
-}
 
-.promociones-seccion2__titulo {
-  padding: 30px;
-}
+  &__titulo {
+    padding: 30px;
+  }
 
-.promociones-seccion2__formulario {
-  padding: 30px;
-  background-color: #C08261;
-  border: 7px solid #000;
-  border-radius: 60px;
-  -webkit-border-radius: 60px;
-  -moz-border-radius: 60px;
-  -ms-border-radius: 60px;
-  -o-border-radius: 60px;
-}
+  &__formulario {
+    padding: 30px;
+    background-color: #C08261;
+    border: 7px solid #000;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
 
-.elementos-del-formulario {
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  margin: 0 100px;
-}
+    .elementos-del-formulario {
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      margin: 0 100px;
 
-.elementos-del-formulario div {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  font-size: 25px;
-}
+      div {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 25px;
 
-.elementos-del-formulario div input {
-  border: 2px solid #000;
-}
+        input {
+          border: 2px solid #000;
+        }
 
-.elementos-del-formulario h3 {
-  font-family: 'Mochiy Pop One', sans-serif;
-  font-size: 35px;
-  font-weight: bold;
-  margin-bottom: 30px;
-}
+        h3 {
+          font-family: 'Mochiy Pop One', sans-serif;
+          font-size: 35px;
+          font-weight: bold;
+          margin-bottom: 30px;
+        }
 
-.elementos-del-formulario .label {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 30px;
-}
+        .label {
+          font-family: 'Josefin Sans', sans-serif;
+          font-size: 30px;
+        }
+      }
 
-#tyc {
-  display: flex;
-  justify-content: center;
+      #tyc {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
 }

@@ -1,51 +1,56 @@
-/*PROMOCIONES - Móvil*/
-
-@media(max-width:480px) {
+/* PROMOCIONES - Móvil */
+@media (max-width: 480px) {
   .promociones-seccion3 {
     padding: 30px;
   }
 
-  .seccion2 h2 {
-    font-size: 30px;
+  .seccion2 {
+    h2 {
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 20px;
+    }
   }
 
-  .seccion2 p {
-    font-size: 20px;
+  .promociones-seccion2__formulario {
+    padding: 10px;
+
+    .elementos-del-formulario {
+      div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 15px;
+
+        .label {
+          font-size: 17px;
+        }
+
+        input {
+          width: 200%;
+          font-size: 15px;
+        }
+
+        h3 {
+          font-size: 20px;
+          width: 200%;
+        }
+      }
+
+      #tyc {
+        label {
+          font-size: 10px;
+        }
+      }
+
+      button {
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
   }
-
-.promociones-seccion2__formulario{
-  padding: 10px;
-}
-
-.elementos-del-formulario div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 15px;
-}
-
-.elementos-del-formulario .label{
-  font-size: 17px;
-}
-
-.elementos-del-formulario input{
-  width: 200%;
-  font-size: 15px;
-}
-
-.elementos-del-formulario h3{
-  font-size: 20px;
-  width: 200%;
-}
-
-#tyc label{
-  font-size: 10px;
-}
-.elementos-del-formulario button{
-  height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 }

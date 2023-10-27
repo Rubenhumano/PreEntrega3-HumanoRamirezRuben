@@ -1,16 +1,20 @@
-/*GALERÍA - Móvil*/
-@media(max-width:480px) {
-  .galeria-introduccion p {
-    font-size: 20px;
-    padding: 12px;
+/* GALERÍA - Móvil */
+@media (max-width: 480px) {
+  .galeria-introduccion {
+    p {
+      font-size: 20px;
+      padding: 12px;
+    }
+
+    h1 {
+      font-size: 30px;
+    }
   }
 
-  .galeria-introduccion h1 {
-    font-size: 30px;
-  }
-
-  .galeria1 h2 {
-    font-size: 30px;
+  .galeria1 {
+    h2 {
+      font-size: 30px;
+    }
   }
 
   .galeria {

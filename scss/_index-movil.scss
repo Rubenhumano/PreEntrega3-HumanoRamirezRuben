@@ -1,78 +1,73 @@
-/*INDEX - Móvil*/
-
-@media(max-width:480px) {
-
+/* INDEX - Móvil */
+@media (max-width: 480px) {
   .section1-index {
     padding: 10px;
   }
 
   .section1-index__presentacion {
     height: 500px;
+    h1 {
+      font-size: 3.5rem;
+      text-shadow: -10px 10px 4px rgba(0, 0, 0, 0.50);
+    }
+    ul {
+      font-size: 1.5rem;
+      -webkit-text-stroke: 1px #000;
+    }
   }
 
-  .section1-index__presentacion h1 {
-    font-size: 3.5rem;
-    text-shadow: -10px 10px 4px rgba(0, 0, 0, 0.50);
-  }
-
-  .section1-index__presentacion ul {
-    font-size: 1.5rem;
-    -webkit-text-stroke: 1px #000;
-  }
-
-  .main__comidas-index img {
-    width: 200px;
-    height: 150px;
-    border: 5px solid #000;
-    border-radius: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .main__comidas-index p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 150px;
-    font-size: 1rem;
-    border: 5px solid #000;
+  .main__comidas-index {
+    img {
+      width: 200px;
+      height: 150px;
+      border: 5px solid #000;
+      border-radius: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 150px;
+      font-size: 1rem;
+      border: 5px solid #000;
+    }
   }
 
   .main1 {
     display: flex;
     flex-direction: column;
     padding: 0 30px;
-  }
-
-  #imagen-tarta {
-    order: -1;
-  }
-
-  .main__comidas-index {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+    #imagen-tarta {
+      order: -1;
+    }
+    .main__comidas-index {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
   }
 
   .main__parrafo-index p {
     font-size: 20px;
   }
 
-  .navegacion-header ul {
-    display: flex;
-    flex-direction: column;
-    font-weight: 400;
-  }
-
-  .navegacion-header ul li {
-    margin: 5px 0;
-  }
-
-  .navegacion-header ul li a {
-    margin: 5px 0;
-    font-size: 14px;
+  .navegacion-header {
+    ul {
+      display: flex;
+      flex-direction: column;
+      font-weight: 400;
+      li {
+        margin: 5px 0;
+        a {
+          margin: 5px 0;
+          font-size: 14px;
+        }
+      }
+    }
   }
 
   .index-imagen {
@@ -83,9 +78,8 @@
   footer {
     padding: 30px;
     font-size: 12px;
-  }
-
-  footer h4 {
-    font-size: 14px;
+    h4 {
+      font-size: 14px;
+    }
   }
 }

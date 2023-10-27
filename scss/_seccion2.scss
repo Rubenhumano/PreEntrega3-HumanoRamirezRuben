@@ -1,20 +1,20 @@
-/*Sección 2*/
+/* Sección 2 */
 .seccion2 {
   background-color: #a48a5e;
   text-align: center;
-}
 
-.seccion2 h2 {
-  font-family: 'Mochiy Pop One', sans-serif;
-  color: rgb(242, 236, 190);
-  font-size: 2.5rem;
-  -webkit-text-stroke: 1px #000;
-}
+  h2 {
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: rgb(242, 236, 190);
+    font-size: 2.5rem;
+    -webkit-text-stroke: 1px #000;
+  }
 
-.seccion2 p {
-  font-family: 'Mochiy Pop One', sans-serif;
-  color: #FFF;
-  font-size: 2rem;
-  margin-bottom: 45px;
-  -webkit-text-stroke: 1px #000;
+  p {
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: #FFF;
+    font-size: 2rem;
+    margin-bottom: 45px;
+    -webkit-text-stroke: 1px #000;
+  }
 }
