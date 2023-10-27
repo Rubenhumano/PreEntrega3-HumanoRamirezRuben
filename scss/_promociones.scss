@@ -25,13 +25,15 @@
       font-weight: 700;
     }
 
-    &__foto {
+
+  }
+      &__foto {
+        padding: 0;
       img {
         height: 100%;
         width: 100%;
       }
     }
-  }
 }
 
 .promociones-seccion2 {
@@ -63,8 +65,10 @@
         width: 100%;
         display: flex;
         justify-content: space-between;
-        font-size: 25px;
 
+        label {
+        font-size: 22px;
+        }
         input {
           border: 2px solid #000;
         }
@@ -78,14 +82,31 @@
 
         .label {
           font-family: 'Josefin Sans', sans-serif;
-          font-size: 30px;
         }
       }
 
-      #tyc {
+
+
+    button {
+      padding: 10px;
+      border-radius: 60px;
+      background-color: $color-principal;
+      color: #F2ECBE;
+      border: 2px solid #F2ECBE;
+      -webkit-border-radius: 60px;
+      -moz-border-radius: 60px;
+      -ms-border-radius: 60px;
+      -o-border-radius: 60px;
+}
+    }
+          #tyc {
         display: flex;
         justify-content: center;
       }
+          input:not(.checkbox) {
+      font-size: 20px;
+      width: 70%;
+      background-color: #F2ECBE;
     }
   }
 }

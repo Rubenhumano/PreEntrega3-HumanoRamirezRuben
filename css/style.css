@@ -201,7 +201,10 @@ footer p {
   text-align: center;
   font-weight: 700;
 }
-.promociones-seccion3__info__foto img {
+.promociones-seccion3__foto {
+  padding: 0;
+}
+.promociones-seccion3__foto img {
   height: 100%;
   width: 100%;
 }
@@ -234,7 +237,9 @@ footer p {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  font-size: 25px;
+}
+.promociones-seccion2__formulario .elementos-del-formulario div label {
+  font-size: 22px;
 }
 .promociones-seccion2__formulario .elementos-del-formulario div input {
   border: 2px solid #000;
@@ -247,11 +252,26 @@ footer p {
 }
 .promociones-seccion2__formulario .elementos-del-formulario div .label {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 30px;
 }
-.promociones-seccion2__formulario .elementos-del-formulario #tyc {
+.promociones-seccion2__formulario .elementos-del-formulario button {
+  padding: 10px;
+  border-radius: 60px;
+  background-color: #9A3B3B;
+  color: #F2ECBE;
+  border: 2px solid #F2ECBE;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+}
+.promociones-seccion2__formulario #tyc {
   display: flex;
   justify-content: center;
+}
+.promociones-seccion2__formulario input:not(.checkbox) {
+  font-size: 20px;
+  width: 70%;
+  background-color: #F2ECBE;
 }
 
 /* NOVEDADES */
@@ -332,6 +352,10 @@ footer p {
   background-color: #9A3B3B;
   color: #F2ECBE;
   border: 2px solid #F2ECBE;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
 }
 
 /* NOSOTROS */
@@ -501,6 +525,11 @@ footer p {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 200%;
+    background-color: #9A3B3B;
+    border-radius: 60px;
+    color: #F2ECBE;
+    border: 2px solid #F2ECBE;
   }
 }
 /* NOVEDADES - Móvil */
@@ -508,18 +537,42 @@ footer p {
   main {
     padding: 30px;
   }
-  main .novedades-main__titulo h1 {
+  .novedades-main__titulo h1 {
     font-size: 30px;
   }
-  main .novedades-seccion2__formulario {
+  .novedades-seccion2__formulario {
     padding: 10px;
   }
-  main .novedades-seccion2__formulario .elementos-del-formulario button {
+  .novedades-seccion2__formulario .elementos-del-formulario div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+  }
+  .novedades-seccion2__formulario .elementos-del-formulario div .label {
+    font-size: 17px;
+  }
+  .novedades-seccion2__formulario .elementos-del-formulario div input {
     width: 200%;
+    font-size: 15px;
+  }
+  .novedades-seccion2__formulario .elementos-del-formulario div h3 {
+    font-size: 20px;
+    width: 200%;
+  }
+  .novedades-seccion2__formulario button {
     height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 200%;
+    background-color: #9A3B3B;
+    border-radius: 60px;
+    color: #F2ECBE;
+    border: 2px solid #F2ECBE;
+  }
+  .novedades-seccion2__formulario #tyc label {
+    font-size: 10px;
   }
 }
 /* NOSOTROS */

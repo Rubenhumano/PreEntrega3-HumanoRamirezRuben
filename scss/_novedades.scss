@@ -86,6 +86,10 @@
       background-color: $color-principal;
       color: #F2ECBE;
       border: 2px solid #F2ECBE;
-    }
+      -webkit-border-radius: 60px;
+      -moz-border-radius: 60px;
+      -ms-border-radius: 60px;
+      -o-border-radius: 60px;
+}
   }
 }
