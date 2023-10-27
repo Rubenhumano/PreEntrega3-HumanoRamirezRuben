@@ -1,4 +1,7 @@
 @charset "UTF-8";
+/*VARIABLES*/
+/*Colores*/
+/*Tamaños de fuente*/
 /*Fuentes*/
 @import url("https://fonts.googleapis.com/css2?family=Actor&family=BenchNine&family=Exo:wght@400;800&family=Josefin+Sans:wght@400;700&family=Mochiy+Pop+One&display=swap");
 /*Generales*/
@@ -8,75 +11,65 @@
   box-sizing: border-box;
 }
 
-/*Header*/
+/* Header */
 header {
   background-color: #9A3B3B;
   padding: 20px 0;
 }
-
-.navegacion-header {
+header .navegacion-header {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.navegacion-header nav {
+header .navegacion-header nav {
   width: 100%;
   text-align: center;
   font-family: "Mochiy Pop One", sans-serif;
 }
-
-.navegacion-header ul {
+header .navegacion-header nav ul {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
   flex-wrap: wrap;
 }
-
-.navegacion-header ul a {
+header .navegacion-header nav ul li a {
   color: #FFF;
   text-decoration: none;
   font-size: 20px;
 }
 
-/*Main*/
+/* Main */
 main {
   background-color: #E2C799;
   padding: 30px 0;
   font-family: "Mochiy Pop One", sans-serif;
 }
-
-main h1,
-h2 {
+main h1, main h2 {
   font-size: 2.5rem;
   text-align: center;
 }
-
 main p {
   font-size: 32px;
-  color: rgb(154, 59, 59);
+  color: #9A3B3B;
 }
-
-.main-cajas {
+main .main-cajas {
   background-color: #C08261;
   border-radius: 60px;
   border: 7px solid #000;
   color: #000;
 }
 
-/*Sección 2*/
+/* Sección 2 */
 .seccion2 {
   background-color: #a48a5e;
   text-align: center;
 }
-
 .seccion2 h2 {
   font-family: "Mochiy Pop One", sans-serif;
   color: rgb(242, 236, 190);
   font-size: 2.5rem;
   -webkit-text-stroke: 1px #000;
 }
-
 .seccion2 p {
   font-family: "Mochiy Pop One", sans-serif;
   color: #FFF;
@@ -92,26 +85,22 @@ footer {
   color: #FFF;
   font-family: "Mochiy Pop One", sans-serif;
 }
-
 footer p {
   font-family: "Actor", sans-serif;
 }
 
-/*INDEX*/
+/* INDEX */
 .index-main {
   padding: 35px 0;
   font-size: 2rem;
 }
-
-.main__parrafo-index {
+.index-main .main__parrafo-index {
   text-align: center;
 }
-
-.main__comidas-index {
+.index-main .main__comidas-index {
   margin: 50px 0;
 }
-
-.main__comidas-index img {
+.index-main .main__comidas-index img {
   width: 300px;
   height: 250px;
   border: 7px solid #000;
@@ -120,8 +109,7 @@ footer p {
   justify-content: center;
   align-items: center;
 }
-
-.main__comidas-index p {
+.index-main .main__comidas-index p {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -140,7 +128,6 @@ footer p {
   height: 700px;
   font-family: "Exo", sans-serif;
 }
-
 .section1-index__presentacion {
   background-color: rgba(217, 217, 217, 0.55);
   display: flex;
@@ -150,7 +137,6 @@ footer p {
   height: 600px;
   font-weight: 800;
 }
-
 .section1-index__presentacion h1 {
   font-weight: 800;
   color: #9A3B3B;
@@ -159,7 +145,6 @@ footer p {
   -webkit-text-stroke: 1px #F2ECBE;
   text-shadow: -10px 10px 4px rgba(0, 0, 0, 0.5);
 }
-
 .section1-index__presentacion ul {
   font-size: 2.8rem;
   color: #E2C799;
@@ -167,19 +152,17 @@ footer p {
   text-align: center;
   list-style-type: none;
 }
-
-.section1-index__presentacion li {
+.section1-index__presentacion ul li {
   text-shadow: -5px 5px 4px rgba(0, 0, 0, 0.5);
 }
 
-/*GALERÍA*/
+/* GALERÍA */
 .galeria {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
   margin: 30px 0px 100px 0px;
 }
-
 .galeria img {
   width: 100%;
   height: 300px;
@@ -190,57 +173,45 @@ footer p {
   margin-bottom: 80px;
   text-align: center;
 }
-
 .galeria-introduccion h1 {
   margin: 20px 0px;
 }
 
-/*PROMOCIONES*/
+/* PROMOCIONES */
 .promociones-seccion3 {
   background-color: #6f6048;
   padding: 30px 0 70px 0;
   font-family: "Mochiy Pop One", sans-serif;
 }
-
 .promociones-seccion3__titulo {
   font-size: 35px;
   color: #FFF;
   text-align: center;
   margin-bottom: 20px;
 }
-
 .promociones-seccion3__info {
   font-family: "Josefin Sans", sans-serif;
   background-color: #F2ECBE;
   padding: 30px;
 }
-
 .promociones-seccion3__info p {
   font-weight: 400;
 }
-
 .promociones-seccion3__info h3 {
   text-align: center;
   font-weight: 700;
 }
-
-.promociones-seccion3__foto img {
+.promociones-seccion3__info__foto img {
   height: 100%;
   width: 100%;
-}
-
-.promociones-seccion3__foto {
-  padding: 0;
 }
 
 .promociones-seccion2 {
   padding-bottom: 45px;
 }
-
 .promociones-seccion2__titulo {
   padding: 30px;
 }
-
 .promociones-seccion2__formulario {
   padding: 30px;
   background-color: #C08261;
@@ -251,8 +222,7 @@ footer p {
   -ms-border-radius: 60px;
   -o-border-radius: 60px;
 }
-
-.elementos-del-formulario {
+.promociones-seccion2__formulario .elementos-del-formulario {
   height: 400px;
   display: flex;
   flex-direction: column;
@@ -260,36 +230,31 @@ footer p {
   justify-content: space-evenly;
   margin: 0 100px;
 }
-
-.elementos-del-formulario div {
+.promociones-seccion2__formulario .elementos-del-formulario div {
   width: 100%;
   display: flex;
   justify-content: space-between;
   font-size: 25px;
 }
-
-.elementos-del-formulario div input {
+.promociones-seccion2__formulario .elementos-del-formulario div input {
   border: 2px solid #000;
 }
-
-.elementos-del-formulario h3 {
+.promociones-seccion2__formulario .elementos-del-formulario div h3 {
   font-family: "Mochiy Pop One", sans-serif;
   font-size: 35px;
   font-weight: bold;
   margin-bottom: 30px;
 }
-
-.elementos-del-formulario .label {
+.promociones-seccion2__formulario .elementos-del-formulario div .label {
   font-family: "Josefin Sans", sans-serif;
   font-size: 30px;
 }
-
-#tyc {
+.promociones-seccion2__formulario .elementos-del-formulario #tyc {
   display: flex;
   justify-content: center;
 }
 
-/*NOVEDADES*/
+/* NOVEDADES */
 .novedades-main__titulo {
   background-color: #F2ECBE;
   color: #9A3B3B;
@@ -302,14 +267,11 @@ footer p {
   margin: 20px 0;
   padding: 30px;
 }
-
-.novedades-main__principal p,
-ol {
+.novedades-main__principal p, .novedades-main__principal ol {
   font-family: "Josefin Sans", sans-serif;
   color: #000;
   font-size: 20px;
 }
-
 .novedades-main__principal h3 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 24px;
@@ -319,11 +281,9 @@ ol {
 .novedades-seccion2 {
   padding-bottom: 45px;
 }
-
 .novedades-seccion2__titulo {
   padding: 30px;
 }
-
 .novedades-seccion2__formulario {
   padding: 30px;
   background-color: #C08261;
@@ -334,8 +294,7 @@ ol {
   -ms-border-radius: 60px;
   -o-border-radius: 60px;
 }
-
-.elementos-del-formulario {
+.novedades-seccion2__formulario .elementos-del-formulario {
   height: 400px;
   display: flex;
   flex-direction: column;
@@ -343,38 +302,31 @@ ol {
   justify-content: space-evenly;
   margin: 0 100px;
 }
-
-.elementos-del-formulario div {
+.novedades-seccion2__formulario .elementos-del-formulario div {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-
-.elementos-del-formulario div input {
+.novedades-seccion2__formulario .elementos-del-formulario div input {
   border: 2px solid #000;
 }
-
-.elementos-del-formulario div h3 {
+.novedades-seccion2__formulario .elementos-del-formulario div h3 {
   font-size: 35px;
   font-weight: bold;
 }
-
-.elementos-del-formulario div label {
+.novedades-seccion2__formulario .elementos-del-formulario div label {
   font-size: 22px;
 }
-
-#tyc {
+.novedades-seccion2__formulario #tyc {
   display: flex;
   justify-content: center;
 }
-
-input:not(.checkbox) {
+.novedades-seccion2__formulario input:not(.checkbox) {
   font-size: 20px;
   width: 70%;
   background-color: #F2ECBE;
 }
-
-button {
+.novedades-seccion2__formulario button {
   padding: 10px;
   border-radius: 60px;
   background-color: #9A3B3B;
@@ -382,11 +334,10 @@ button {
   border: 2px solid #F2ECBE;
 }
 
-/*NOSOTROS*/
+/* NOSOTROS */
 .nosotros-seccion2 {
   padding: 40px 0 75px 0;
 }
-
 .nosotros-seccion2 .mapa {
   border-radius: 60px;
   border: 7px solid #000;
@@ -398,12 +349,10 @@ button {
   margin: 20px 0 70px 0;
   padding: 30px;
 }
-
 .nosotros-main-cajas h3 {
   font-size: 1.6rem;
   text-align: center;
 }
-
 .nosotros-main-cajas p {
   font-family: "Josefin Sans", sans-serif;
   font-size: 1rem;
@@ -421,7 +370,7 @@ button {
   border-radius: 60px;
 }
 
-/*INDEX - Móvil*/
+/* INDEX - Móvil */
 @media (max-width: 480px) {
   .section1-index {
     padding: 10px;
@@ -460,10 +409,10 @@ button {
     flex-direction: column;
     padding: 0 30px;
   }
-  #imagen-tarta {
+  .main1 #imagen-tarta {
     order: -1;
   }
-  .main__comidas-index {
+  .main1 .main__comidas-index {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -495,7 +444,7 @@ button {
     font-size: 14px;
   }
 }
-/*GALERÍA - Móvil*/
+/* GALERÍA - Móvil */
 @media (max-width: 480px) {
   .galeria-introduccion p {
     font-size: 20px;
@@ -513,7 +462,7 @@ button {
     padding: 0;
   }
 }
-/*PROMOCIONES - Móvil*/
+/* PROMOCIONES - Móvil */
 @media (max-width: 480px) {
   .promociones-seccion3 {
     padding: 30px;
@@ -527,45 +476,45 @@ button {
   .promociones-seccion2__formulario {
     padding: 10px;
   }
-  .elementos-del-formulario div {
+  .promociones-seccion2__formulario .elementos-del-formulario div {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 15px;
   }
-  .elementos-del-formulario .label {
+  .promociones-seccion2__formulario .elementos-del-formulario div .label {
     font-size: 17px;
   }
-  .elementos-del-formulario input {
+  .promociones-seccion2__formulario .elementos-del-formulario div input {
     width: 200%;
     font-size: 15px;
   }
-  .elementos-del-formulario h3 {
+  .promociones-seccion2__formulario .elementos-del-formulario div h3 {
     font-size: 20px;
     width: 200%;
   }
-  #tyc label {
+  .promociones-seccion2__formulario .elementos-del-formulario #tyc label {
     font-size: 10px;
   }
-  .elementos-del-formulario button {
+  .promociones-seccion2__formulario .elementos-del-formulario button {
     height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 }
-/*NOVEDADES - Móvil*/
+/* NOVEDADES - Móvil */
 @media (max-width: 480px) {
   main {
     padding: 30px;
   }
-  .novedades-main__titulo h1 {
+  main .novedades-main__titulo h1 {
     font-size: 30px;
   }
-  .novedades-seccion2__formulario {
+  main .novedades-seccion2__formulario {
     padding: 10px;
   }
-  .elementos-del-formulario button {
+  main .novedades-seccion2__formulario .elementos-del-formulario button {
     width: 200%;
     height: 30px;
     display: flex;
@@ -573,23 +522,23 @@ button {
     justify-content: center;
   }
 }
-/*NOSOTROS*/
+/* NOSOTROS */
 @media (max-width: 480px) {
-  .nosotros-main h1, h2 {
+  .nosotros-main h1, .nosotros-main h2 {
     font-size: 30px;
   }
   .nosotros-main p {
     font-size: 20px;
   }
-  .nosotros-main-cajas h3 {
+  .nosotros-main .nosotros-main-cajas h3 {
     font-size: 20px;
   }
-  .nosotros-imagen {
-    display: none;
-  }
-  .mapa {
+  .nosotros-main .mapa {
     width: 100%;
   }
+}
+.nosotros-imagen {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */

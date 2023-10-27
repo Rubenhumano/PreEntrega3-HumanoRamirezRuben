@@ -1,7 +1,7 @@
 /* NOVEDADES */
 .novedades-main__titulo {
   background-color: #F2ECBE;
-  color: #9A3B3B;
+  color: $color-principal;
   margin: 20px 0;
   padding: 30px;
 }
@@ -33,7 +33,7 @@
 
   &__formulario {
     padding: 30px;
-    background-color: #C08261;
+    background-color: $color-cajas;
     border: 7px solid #000;
     border-radius: 60px;
     -webkit-border-radius: 60px;
@@ -83,7 +83,7 @@
     button {
       padding: 10px;
       border-radius: 60px;
-      background-color: #9A3B3B;
+      background-color: $color-principal;
       color: #F2ECBE;
       border: 2px solid #F2ECBE;
     }

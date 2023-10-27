@@ -1,6 +1,6 @@
 /* Main */
 main {
-  background-color: #E2C799;
+  background-color: $color-main;
   padding: 30px 0;
   font-family: 'Mochiy Pop One', sans-serif;
 
@@ -11,11 +11,11 @@ main {
 
   p {
     font-size: 32px;
-    color: rgb(154, 59, 59);
+    color: $color-principal;
   }
 
   .main-cajas {
-    background-color: #C08261;
+    background-color: $color-cajas;
     border-radius: 60px;
     border: 7px solid #000;
     color: #000;

@@ -2,7 +2,7 @@
 @media (max-width: 480px) {
   .nosotros-main {
     h1, h2 {
-      font-size: 30px;
+      font-size: $tamano-fuente-titulos;
     }
 
     p {
@@ -15,12 +15,14 @@
       }
     }
 
-    .nosotros-imagen {
-      display: none;
-    }
+   
 
     .mapa {
       width: 100%;
     }
   }
 }
+
+ .nosotros-imagen {
+      display: none;
+    }
